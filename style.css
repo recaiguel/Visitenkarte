@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background: linear-gradient(to bottom right, #25ffdb, #896892);
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  display: flex;
+}
+
+.bild {
+  background-image: url("https://media.licdn.com/dms/image/D4E03AQG8GFCFcUgLAw/profile-displayphoto-shrink_200_200/0/1695206850789?e=1721260800&v=beta&t=3-gIuX3U7NZbOeOGXc_JHEeV53GeYJm_xxGXseYwnpk");
+  width: 60%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px 0 0 50px;
+}
+
+.info {
+  width: 40%;
+  background-color: white;
+  padding: 5%;
+  border-radius: 0 50px 50px 0;
+  color: #63626e;
+}
+
+.info > h1 {
+  font-size: 26px
+}
+
+.info > p {
+  margin-bottom: 75px;
+}
+
+.info > a {
+  background-color: #25ffdb;
+  display: block;
+  width: 150px;
+  text-align: center;
+  padding: 5px 0;
+  color: #63626e;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 0 black;
+  transition: all 0.5s linear;
+}
+
+.info > a:hover {
+  box-shadow: 0 0 4px black;
+  color: #25ffdb;
+  background-color: #63626e;
+  
+}
